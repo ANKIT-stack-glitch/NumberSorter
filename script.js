@@ -8,3 +8,10 @@ const sortInputArray = (event) => {
 
 
 sortButton.addEventListener("click", sortInputArray);
+
+const sortButton = document.getElementById("sort");
+
+const sortInputArray = (event) => {
+  event.preventDefault();
+};
+sortButton.addEventListener("click", sortInputArray);
