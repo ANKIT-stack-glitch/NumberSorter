@@ -37,3 +37,15 @@ const sortInputArray = (event) => {
 };
 
 sortButton.addEventListener("click", sortInputArray);
+
+
+const sortInputArray = (event) => {
+  event.preventDefault();
+
+  const dropdowns = document.getElementsByClassName("values-dropdown");
+  const inputValues = [];
+
+  for (let i = 0; i < dropdowns.length; i++) {
+    inputValues.push(dropdowns[i].value);
+  }
+};
