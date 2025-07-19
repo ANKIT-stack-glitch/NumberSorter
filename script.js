@@ -30,3 +30,10 @@ const sortInputArray = (event) => {
   console.log(inputValues);
 };
 
+const sortButton = document.getElementById("sort");
+
+const sortInputArray = (event) => {
+  event.preventDefault();
+};
+
+sortButton.addEventListener("click", sortInputArray);
